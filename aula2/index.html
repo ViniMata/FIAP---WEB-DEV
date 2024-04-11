@@ -8,9 +8,16 @@
 </head>
 <body>
     <h1>Caulculadora HTML + JS</h1>
-    <input type="number" id="numero1">
-    <input type="number" id="numero2">
-    <button id="btnClicar" onclick="clicar()">Calcular</button>
+    <label for="numero1">Numero 1:</label>
+    <input type="number" id="numero1" placeholder="Insira um numero:">
+    <label for="numero2">Numero 2:</label>
+    <input type="number" id="numero2" placeholder="Insira um numero:">
+    <div>
+    <button id="btnClicar" onclick="soma()">+</button>
+    <button id="btnClicar" onclick="subtracao()">-</button>
+    <button id="btnClicar" onclick="divisao()">/</button>
+    <button id="btnClicar" onclick="multiplicacao()">*</button>
+    </div>  
     <h2>Resultado:</h2>
     <p id="resultado"></p>
 
