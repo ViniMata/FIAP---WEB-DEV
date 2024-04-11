@@ -23,10 +23,13 @@ function divisao(){
     var n1 = parseFloat(document.getElementById("numero1").value)
     var n2 = parseFloat(document.getElementById("numero2").value)
     var resultado = document.getElementById("resultado")
-    //Processamento
+    if (n2 === 0) {
+        document.getElementById("resultado").innerText = "Erro divisão por zero";}
+    else{
+    
     var divisao = n1 / n2
     //Saida
-    resultado.innerText = divisao
+    resultado.innerText = divisao}
 }
 function multiplicacao(){
     //Entrada
