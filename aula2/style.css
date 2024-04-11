@@ -1,0 +1,43 @@
+.Espaços{
+    background-color: aqua;
+    min-height: 200px
+}
+.botoes{
+    margin: 10px;
+    display: flex;
+    margin-left: 150px;
+}
+#btnSomar {
+    background-color: blue;
+    border-radius: 25px;
+    height: 45px;
+    width: 65px;
+    color: white;
+    font-size: x-large;
+}
+#btnSub {
+    background-color: blue;
+    border-radius: 25px;
+    height: 45px;
+    width: 65px;
+    color: white;
+    font-size: x-large;
+}
+#btnDiv {
+    background-color: blue;
+    border-radius: 25px;
+    height: 45px;
+    width: 65px;
+    color: white;
+    font-size: x-large;
+
+}
+#btnMult {
+    background-color: blue;
+    border-radius: 25px;
+    height: 45px;
+    width: 65px;
+    color: white;
+    font-size: x-large;
+
+}
