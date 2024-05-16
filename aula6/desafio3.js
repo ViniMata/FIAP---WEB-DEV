@@ -6,8 +6,10 @@ const alunos = [
    ];
 
 function aprovados(array){
-    return array.filter(alunos.media >= 6)
+    return array.filter(alunos => alunos.media >= 6)
 }   
 
-console.log("verificação")
+console.log("Aprovados")
 console.log(aprovados(alunos))
+console.log("Reprovados")
+console.log(alunos.filter(alunos => alunos.media < 6))
