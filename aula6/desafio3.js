@@ -1,8 +1,8 @@
 const alunos = [
     { nome: 'Diogo', media: 5.5 },
     { nome: 'Julia', media: 9.5 },
-    { nome: 'Roberto', media: 1.5 },
-    { nome: 'Tiago', media: 6.0 }
+    { nome: 'Gustavo Oliveira de Moura', media: 10.5 },
+    { nome: 'Tiago', media: 5.0 }
    ];
 
 function aprovados(array){
